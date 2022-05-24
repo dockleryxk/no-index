@@ -125,6 +125,8 @@
   for = "/*"
 
   [headers.values]
+    # https://developers.google.com/search/docs/advanced/robots/robots_meta_tag#none
+    X-Robots-Tag = "none, noarchive, nosnippet"
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
     Content-Security-Policy = '''
