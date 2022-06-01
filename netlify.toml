@@ -69,9 +69,11 @@
 # which are PER-DEPLOY.
 
 # A basic redirect rule
-# [[redirects]]
-#   from = "/*"
-#   to = "/blog/:splat"
+[[redirects]]
+  from = "/*"
+  to = "/"
+  status = 302
+  force = true
 
 # A redirect rule with many of the supported properties
 # [[redirects]]
